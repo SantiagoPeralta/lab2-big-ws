@@ -41,7 +41,7 @@ public class TranslatorEndpointTest {
 		GetTranslationRequest request = new GetTranslationRequest();
 		request.setLangFrom("es");
 		request.setLangTo("ja");
-		request.setText("Hola, yo me llamo Santi, quieres ??");
+		request.setText("Hola, yo me llamo Santi");
 		//request.setLangFrom("en");
 		//request.setLangTo("es");
 		//request.setText("This is a test of translation service");
