@@ -41,7 +41,7 @@ public class TranslatorEndpointTest {
 		GetTranslationRequest request = new GetTranslationRequest();
 		request.setLangFrom("es");
 		request.setLangTo("ja");
-		request.setText("Hola, yo me llamo Santi");
+		request.setText("Hola, yo me llamo Santi, quieres ??");
 		//request.setLangFrom("en");
 		//request.setLangTo("es");
 		//request.setText("This is a test of translation service");
@@ -49,6 +49,7 @@ public class TranslatorEndpointTest {
 				+ port + "/ws", request);
 		assertNotNull(response);
 		assertThat(response, instanceOf(GetTranslationResponse.class));
+		//System.out.println(((GetTranslationResponse) response).getTranslation());
 		assertThat(((GetTranslationResponse) response).getTranslation(), is("こんにちは、サンティ"));
 	}
 }
