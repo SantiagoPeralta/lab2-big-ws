@@ -25,7 +25,7 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 750849 | MOSQUERA ZAPATA, LUIS EDUARDO
 650448 | MURILLO MAGDALENA, JAVIER
 453948 | NAVARRO CLARAS, MARIO
-647973 | PERALTA MARTÍNEZ, SANTIAGO | [Repo](https://github.com/SantiagoPeralta/lab2-big-ws/tree/testSantiagoPeralta) | [![Build Status](https://travis-ci.org/SantiagoPeralta/lab2-big-ws.svg?branch=testSantiagoPeralta)](https://travis-ci.org/SantiagoPeralta/lab2-big-ws) | Added translation presentation from spanish to japanese
+647973 | PERALTA MARTÍNEZ, SANTIAGO | [Repo](https://github.com/SantiagoPeralta/lab2-big-ws/tree/testSantiagoPeralta) | [![Build Status](https://travis-ci.org/SantiagoPeralta/lab2-big-ws.svg?branch=testSantiagoPeralta)](https://travis-ci.org/SantiagoPeralta/lab2-big-ws) | Added translation amor from spanish to Indonesian
 683546 | PÉREZ CANCER, BEATRIZ
 686329 | ROIG JIMENEZ, ANA
 559207 | RUEDA MACÍAS, DANIEL
