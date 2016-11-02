@@ -49,6 +49,7 @@ public class TranslatorEndpointTest {
 				+ port + "/ws", request);
 		assertNotNull(response);
 		assertThat(response, instanceOf(GetTranslationResponse.class));
+		//System.out.println(((GetTranslationResponse) response).getTranslation());
 		assertThat(((GetTranslationResponse) response).getTranslation(), is("こんにちは、サンティ"));
 	}
 }
