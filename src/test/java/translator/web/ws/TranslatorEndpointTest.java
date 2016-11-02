@@ -41,11 +41,11 @@ public class TranslatorEndpointTest {
 		GetTranslationRequest request = new GetTranslationRequest();
 		request.setLangFrom("es");
 		request.setLangTo("id");
-		request.setText("hola me llamo Santi");
+		request.setText("amor");
 		Object response = new WebServiceTemplate(marshaller).marshalSendAndReceive("http://localhost:"
 				+ port + "/ws", request);
 		assertNotNull(response);
 		assertThat(response, instanceOf(GetTranslationResponse.class));
-		assertThat(((GetTranslationResponse) response).getTranslation(), is("halo, nama saya Santi"));
+		assertThat(((GetTranslationResponse) response).getTranslation(), is("cinta"));
 	}	
 }
